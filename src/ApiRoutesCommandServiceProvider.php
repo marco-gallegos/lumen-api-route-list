@@ -8,6 +8,6 @@ class ApiRoutesCommandServiceProvider extends ServiceProvider {
      * @return void
      */
     public function register(){
-        $this->commands('CbxSoftware\LumenApiRoutesList\ApiRoutesCommand');
+        $this->commands('CbxTechCorp\LumenApiRoutesList\ApiRoutesCommand');
     }
 }
