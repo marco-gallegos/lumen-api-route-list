@@ -1,11 +1,13 @@
 {
-    "name": "cbxsoftware/lumen-api-routes-list",
+    "name": "cbxtechcorp/lumen-api-routes-list",
     "license": "MIT",
     "description": "Display the route list of dingo api configuration",
     "keywords": [
         "lumen",
         "route list",
-        "dingo api"
+        "dingo api",
+        "rest",
+        "microservice"
     ],
     "authors": [
         {
@@ -21,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CbxSoftware\\LumenApiRoutesList\\": "src/"
+            "CbxTechCorp\\LumenApiRoutesList\\": "src/"
         }
     },
     "minimum-stability": "stable",

@@ -1,5 +1,5 @@
 <?php
-namespace CbxSoftware\LumenApiRoutesList;
+namespace CbxTechCorp\LumenApiRoutesList;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Symfony\Component\Console\Input\InputOption;
@@ -29,7 +29,7 @@ class ApiRoutesCommand extends Command
      *
      * @var array
      */
-    protected $compactColumns = ['host', 'method', 'controller', 'action'];
+    protected $compactColumns = ['host', 'method', 'action'];
     /**
      * Execute the console command.
      *
@@ -46,25 +46,6 @@ class ApiRoutesCommand extends Command
      */
     protected function getRoutes()
     {   
-        /*
-        global $app;
-        $routeCollection = property_exists($app, 'router') ? $app->router->getRoutes() : $app->getRoutes();
-        $rows = array();
-        foreach ($routeCollection as $route) {
-            $controller = $this->getController($route['action']);
-            // Show class name without namesapce
-            if ($this->option('compact') && $controller !== 'None')
-                $controller = substr($controller, strrpos($controller, '\\') + 1);
-            $rows[] = [
-                'verb'       => $route['method'],
-                'path'       => $route['uri'],
-                'namedRoute' => $this->getNamedRoute($route['action']),
-                'controller' => $controller,
-                'action'     => $this->getAction($route['action']),
-                'middleware' => $this->getMiddleware($route['action']),
-            ];
-        }
-        */
         $rows = [];
         $api = app('Dingo\Api\Routing\Router');
 		//dump($api);
