@@ -1,0 +1,29 @@
+{
+    "name": "cbxsoftware/lumen-api-routes-list",
+    "license": "MIT",
+    "description": "Display the route list of dingo api configuration",
+    "keywords": [
+        "lumen",
+        "route list",
+        "dingo api"
+    ],
+    "authors": [
+        {
+            "name": "Marco A. Gallegos",
+            "email": "ma_galeza@hotmail.com",
+            "homepage": "https://github.com/marco-gallegos"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*",
+        "dingo/api": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "CbxSoftware\\LumenApiRoutesList\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
