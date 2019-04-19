@@ -1,7 +1,7 @@
 <?php
 namespace CbxSoftware\LumenApiRoutesList;
 use Illuminate\Support\ServiceProvider;
-class RoutesCommandServiceProvider extends ServiceProvider
+class ApiRoutesCommandServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
