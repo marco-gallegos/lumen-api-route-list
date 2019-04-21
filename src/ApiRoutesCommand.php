@@ -17,13 +17,13 @@ class ApiRoutesCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Display all registered API routes.';
+    protected $description = 'Display all Registered Dingo API routes.';
     /**
      * The table headers for the command.
      *
      * @var array
      */
-    protected $headers = array('Host', 'Method', 'URI', 'Name', 'Action', 'Protected', "Version");
+    protected $headers = array('Host', 'Method', 'Uri', 'Name', 'Action', 'Protected', "Version");
     /**
      * The columns to display when using the "compact" flag.
      *
