@@ -28,5 +28,5 @@ if (class_exists(CbxTechCorp\LumenApiRoutesList\ApiRoutesCommandServiceProvider:
 ### Check the Result
 
 ```bash
-php -S localhost:8000 -t public
+php artisan api:routes
 ```
