@@ -1,6 +1,6 @@
 # Lumen API Route List
 
-provee el comando api:routes de laravel en lumen
+Provee el comando api:routes de laravel en lumen
 
 ## Instalation
 
@@ -28,5 +28,5 @@ if (class_exists(CbxTechCorp\LumenApiRoutesList\ApiRoutesCommandServiceProvider:
 ### Check the Result
 
 ```bash
-php artisan serve
+php -S localhost:8000 -t public
 ```
