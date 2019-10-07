@@ -18,7 +18,6 @@
     ],
     "require": {
         "php": ">=7.2",
-        "illuminate/support": "^6.*",
         "dingo/api": "^2"
     },
     "autoload": {
